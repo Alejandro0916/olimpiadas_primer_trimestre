@@ -50,4 +50,4 @@ print(f"la lista viajeros quedo de la siguiente manera:{viajeros}")
 print(f"la lista destinos quedo de la siguiente manera:{destinos}")
 print(f"la lista grupo1 quedo de la siguiente manera:{grupo_1}")
 print(f"la lista costeños quedo de la siguiente manera:{costeños}")
-print(f"el diccionario quedo de la siguiente manera: {reserva}")
+print(f"el diccionario quedo de la siguiente manera: {reserva}") #ajaja
