@@ -6,19 +6,30 @@ destinos = ["cartagena","medellin","san andres"]
 #paso 1
 if "valeria" in viajeros :
     viajeros.append("santiago")
+else:
+    print("")
+    
 #paso 2 
 if "san andres" in destinos :
     destinos.append("santa marta")
+else:
+      print("")
 #paso 3
 if "tomas" in viajeros :
     viajeros.remove("tomas")
+else:
+      print("")
 #paso 4
 if len(destinos) > 3 :
     destinos.pop(0)
+else:
+      print("")
 #paso 5
 if "daniela" in viajeros :
     viajeros.remove("daniela")
     viajeros.append("julieta")
+else:
+      print("")
 
 # aqui cree las 2 listas que me soliciataron en el punto 6,7
 
@@ -38,7 +49,7 @@ if "check - in listo" in grupo_1 :
         "confirmados" : True
         }
 #paso 11
-if  reserva :
+if  reserva:
     reserva["vuelo"] = "v-2345"
 #paso 12
 if "bogota" not in destinos :
@@ -50,4 +61,4 @@ print(f"la lista viajeros quedo de la siguiente manera:{viajeros}")
 print(f"la lista destinos quedo de la siguiente manera:{destinos}")
 print(f"la lista grupo1 quedo de la siguiente manera:{grupo_1}")
 print(f"la lista costeños quedo de la siguiente manera:{costeños}")
-print(f"el diccionario quedo de la siguiente manera: {reserva}") #ajaja
+print(f"el diccionario quedo de la siguiente manera: {reserva}") 
